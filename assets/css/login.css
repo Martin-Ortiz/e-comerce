@@ -1,0 +1,38 @@
+.container-login{
+    background-color: var(--background);
+}
+.form-login{
+    width: 35%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.titulo-login{
+    font-size: 1.3rem;
+    text-align: center;
+    color: var(--color-texto);
+}
+.elemento-form{
+    display: block;
+    margin: 1.5rem 0;
+    width: 99%;
+    height: 3rem;
+    border: none;
+}
+.boton-azul{
+    width: 100%;
+}
+
+.contacto-c{
+    margin-top: 0;
+}
+
+.boton-azul{
+    background-color: var(--color-azul);
+    color: var(--color-de-fondo);
+    border-color: var(--color-azul);
+}
+.boton-azul:hover{
+    background-color: var(--color-de-fondo);
+    color: var(--color-azul);
+}

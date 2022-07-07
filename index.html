@@ -21,7 +21,7 @@
     <header>
         <section class="container">
             <div class="busqueda">
-                <div class="logo">
+                <div id="logo" class="logo">
                     <img src="./assets/img/logo.svg" alt="">
                     <span class="alura texto-logo">Alura</span>
                     <span class="geek texto-logo">Geek</span>
@@ -29,7 +29,9 @@
                 <input type="search" class="input-busqueda" placeholder="¿Qué deseas buscar?" name="busqueda" id="">
                 <button class="lupa"><img src="./assets/img/buscar.svg" alt=""></button>
             </div>
-            <button class="login">Login</button>
+            <a href="./assets/login/login.html">
+                <button id="btnLogin" class="login">Login</button>
+            </a>
         </section>
 
     </header>
@@ -258,7 +260,7 @@
         <section id="contacto" class="contacto">
             <div class="container">
                 <div class="container-contacto">
-                    
+
                     <div class="contacto-logo">
                         <div class="logo">
                             <img src="./assets/img/logo.svg" alt="">
@@ -285,10 +287,11 @@
                                 <input class="nombre" type="text" name="nombre" id="" placeholder="Nombre...">
                             </div>
 
-                            <div class="elemento-formulario">                
-                                <textarea class="mensaje" name="mensaje" id="" rows="8" placeholder="Escriba su mensaje"></textarea>
+                            <div class="elemento-formulario">
+                                <textarea class="mensaje" name="mensaje" id="" rows="8"
+                                    placeholder="Escriba su mensaje"></textarea>
                             </div>
-                            
+
                             <button class="boton-banner">Enviar mensaje</button></a>
                         </form>
                     </div>
@@ -303,5 +306,6 @@
         <p class="rodapie">Creado por Martin Ortiz 2022 &copy;</p>
     </footer>
 </body>
+<script src="./assets/js/main.js"></script>
 
-</html> 
+</html>
