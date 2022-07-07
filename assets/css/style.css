@@ -18,7 +18,18 @@ button{
 button:hover{
     cursor: pointer;
 }
-
+label{
+    display: block;
+    margin: .5rem 0;
+}
+a{
+    text-decoration: none;
+    color: var(--color-azul);
+    font-weight: bold;
+}
+a:hover{
+    cursor: pointer;
+}
 /*--Header--*/
 
 .busqueda{
@@ -101,4 +112,44 @@ button:hover{
 .boton-banner:hover{
     background-color: var(--color-de-fondo);
     color: var(--color-azul);
+}
+
+/*--Seccion de productos--*/
+.container-seccion{
+    border-top: 3.5px solid var(--background);
+    width: 100%;
+    margin: 1rem 0;
+}
+.encabezado-seccion{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.titulo-seccion{
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--color-texto);
+}
+.contenido-seccion{
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+}
+
+.tarjeta-seccion{
+    width: 16.66%;
+}
+.imagen-producto{
+    margin-top: 1rem;
+    width: 85%;
+    margin-left: 7.5%;
+}
+.descripcion-producto{
+    display: block;
+    width: 100%;
+    margin-left: 7.5%;
+    margin-bottom: 1rem;
+}
+.precio{
+    font-weight: bold;
 }
