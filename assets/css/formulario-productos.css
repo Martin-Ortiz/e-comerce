@@ -14,3 +14,20 @@
     font-family: 'Roboto', sans-serif;
     height: 4rem;
 }
+
+/*---Tablet---*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 980px) {
+    .form-login{
+        width: 45%;
+    }
+}
+
+/*---Mobile---*/
+@media only screen and (max-device-width: 767px) {
+    .busqueda{
+        width: auto;
+    }
+    .lupa{
+        margin: 0;
+    }
+}

@@ -234,3 +234,77 @@ a:hover{
 }
 
 
+
+/*---Tablet---*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 980px) {
+    
+    .tarjeta-seccion{
+        width: 25%;
+    }
+    .container-contacto{
+        flex-wrap: wrap;
+        margin: 1.5rem 0;
+    }
+    .contacto-logo{
+        display: block;
+        width: 100%;
+    }
+    .contacto-sobreNosotros{
+        width: 40%;
+        
+    }
+    .contacto-formulario{
+        width: 60%;
+    }
+}
+
+/*---Mobile---*/
+@media only screen and (max-device-width: 767px) {
+    .input-busqueda{
+        display: none;
+    }
+    .lupa{
+        margin-left: 1rem;
+        border-radius: 17px;
+    }
+    .login{
+        width: 7rem;
+    }
+    .titulo{
+       font-size: 32px; 
+    }
+    .subtitulo{
+        font-size: 18px;
+    }
+    .tarjeta-seccion{
+        width: 50%;
+    }
+
+    .container-contacto{
+        display: block;
+    }
+
+    .contacto-logo{
+        width: 100%;
+       display: flex;
+       justify-content: center;
+    }
+    .geek{
+        margin-right: 0;
+    }
+    .contacto-sobreNosotros{
+        width: 100%;
+    }
+    .link-contacto{
+        padding: .4rem 0;
+        text-align: center;
+    }
+    
+    .contacto-formulario{
+        width: 100%;
+    }
+
+
+}
+
+
