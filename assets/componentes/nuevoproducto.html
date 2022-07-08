@@ -14,8 +14,9 @@
     <link rel="stylesheet" href="../../assets/css/colores.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/login.css">
+    <link rel="stylesheet" href="../css/formulario-productos.css">
     <link rel="shortcut icon" href="../../assets/img/logo.svg" type="image/x-icon">
-    <title>login</title>
+    <title>Agregar producto</title>
 </head>
 
 <body>
@@ -40,11 +41,33 @@
     <main>
         <section class="container-login">
             <div class="form-login">
-                <h1 class="titulo-login">Inicia Sesión</h1>
+                <h1 class="titulo-productos">Agregar Nuevo Producto</h1>
+
                 <div class="elementos-form">
-                    <input class="elemento-form" type="email" name="" id="email" placeholder="escriba su correo electrónico">
-                    <input class="elemento-form" type="password" name="" id="contrasenia" placeholder="escriba su contraseña">
-                    <button id="ingresar" class="boton-azul cien">Entrar</button>
+                    <div class="elemento-formulario">
+                        <label class="etiqueta" for="url">URL de imagen</label>
+                        <input id="url" class="entrada-dato" type="text" placeholder="./ruta/imagen.png">
+                    </div>
+
+                    <div class="elemento-formulario">
+                        <label class="etiqueta" for="categoria">Categoria</label>
+                        <input id="categoria" class="entrada-dato" type="text" placeholder="Consolas">
+                    </div>
+
+                    <div class="elemento-formulario">
+                        <label class="etiqueta" for="nombreProducto">Nombre del producto</label>
+                        <input id="nombreProducto" class="entrada-dato" type="text" placeholder="Producto xyz">
+                    </div>
+
+                    <div class="elemento-formulario">
+                        <label class="etiqueta" for="precio">Precio del producto</label>
+                        <input id="precio" class="entrada-dato" type="text" placeholder="$60.00">
+                    </div>
+                    <div class="elemento-formulario">
+                        <textarea class="entrada-dato descripcion" name="" id="" rows="10" placeholder="Descripción del producto"></textarea>
+                    </div>
+
+                    <button id="agregarProducto" class="boton-azul cien">Agregar Producto</button>
                 </div>
                 
             </div>

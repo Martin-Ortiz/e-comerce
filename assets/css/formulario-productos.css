@@ -1,0 +1,16 @@
+.titulo-productos{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.etiqueta{
+    color: var(--color-texto);
+}
+.entrada-dato{
+    width: 99%;
+    border: var(--color-de-fondo);
+}
+
+.descripcion{
+    font-family: 'Roboto', sans-serif;
+    height: 4rem;
+}
