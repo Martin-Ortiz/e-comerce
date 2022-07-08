@@ -18,6 +18,17 @@ button{
 button:hover{
     cursor: pointer;
 }
+.boton-blanco{
+    color: var(--color-azul);
+    border-color: var(--color-azul);
+    background-color: var(--color-de-fondo);
+}
+
+.boton-blanco:hover{
+    color: var(--color-de-fondo);
+    background-color: var(--color-azul);
+    
+}
 label{
     display: block;
     margin: .5rem 0;
@@ -134,7 +145,7 @@ a:hover{
 .contenido-seccion{
     display: flex;
     margin-top: 1.5rem;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .tarjeta-seccion{

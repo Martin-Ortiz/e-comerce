@@ -38,16 +38,17 @@
 
     <main>
         <section class="container-login">
-            <form class="form-login">
+            <div class="form-login">
                 <h1 class="titulo-login">Inicia Sesión</h1>
                 <div class="elementos-form">
-                    <input class="elemento-form" type="email" name="" id="" placeholder="escriba su correo electrónico">
-                    <input class="elemento-form" type="password" name="" id="" placeholder="escriba su contraseña">
-                    <button class="boton-azul">Entrar</button>
+                    <input class="elemento-form" type="email" name="" id="email" placeholder="escriba su correo electrónico">
+                    <input class="elemento-form" type="password" name="" id="contrasenia" placeholder="escriba su contraseña">
+                    <button id="ingresar" class="boton-azul cien">Entrar</button>
                 </div>
-
-            </form>
-
+                
+            </div>
+            
+            
         </section>
 
         <section id="contacto" class="contacto">
@@ -77,11 +78,11 @@
 
                             <div class="elemento-formulario">
                                 <label for="nombre">Nombre</label>
-                                <input class="nombre" type="text" name="nombre" id="" placeholder="Nombre...">
+                                <input class="nombre" type="text" name="nombre" id="nombre" placeholder="Nombre...">
                             </div>
 
                             <div class="elemento-formulario">
-                                <textarea class="mensaje" name="mensaje" id="" rows="8"
+                                <textarea class="mensaje" name="mensaje" id="mensaje" rows="8"
                                     placeholder="Escriba su mensaje"></textarea>
                             </div>
 
@@ -99,6 +100,7 @@
         <p class="rodapie">Creado por Martin Ortiz 2022 &copy;</p>
     </footer>
 </body>
-<script src="../../assets/js/main.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/login.js"></script>
 
 </html>

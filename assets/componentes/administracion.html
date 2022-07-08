@@ -10,56 +10,46 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:ital,wght@0,300;0,400;1,700&family=Roboto:ital@0;1&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/colores.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon">
-    <title>AluraGeek</title>
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="../../assets/css/colores.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/login.css">
+    <link rel="shortcut icon" href="../../assets/img/logo.svg" type="image/x-icon">
+    <title>Admin</title>
 </head>
 
 <body>
     <header>
         <section class="container">
             <div class="busqueda">
-                <div id="logo" class="logo">
-                    <img src="./assets/img/logo.svg" alt="">
-                    <span class="alura texto-logo">Alura</span>
-                    <span class="geek texto-logo">Geek</span>
+                <div id="logoLogin" class="logo">
+                    <a class="logo" href="../../index.html">
+                        <img src="../../assets/img/logo.svg" alt="">
+                        <span class="alura texto-logo">Alura</span>
+                        <span class="geek texto-logo">Geek</span>
+                    </a>
                 </div>
                 <input type="search" class="input-busqueda" placeholder="¿Qué deseas buscar?" name="busqueda" id="">
-                <button class="lupa"><img src="./assets/img/buscar.svg" alt=""></button>
+                <button class="lupa"><img src="../../assets/img/buscar.svg" alt=""></button>
             </div>
-            <a href="./assets/componentes/login.html">
-                <button id="btnLogin" class="login">Login</button>
-            </a>
         </section>
 
     </header>
 
     <main>
-        <section class="banner">
-            <div class="container">
-                <div class="cont-banner">
-                    <h1 class="titulo">Verano Promocional</h1>
-                    <h2 class="subtitulo">Productos seleccionados con 33% de descuento.</h2>
-                    <a href="#consolas"><button class="boton-banner">Ver consolas</button></a>
-                </div>
-            </div>
-        </section>
-
-        <section id="starWars">
+        <section id="administrador">
             <div class="container">
 
                 <div class="container-seccion">
                     <div class="encabezado-seccion">
-                        <h1 class="titulo-seccion">Star Wars</h1>
-                        <a href="#starWars">ver todo &rArr;</a>
+                        <h1 class="titulo-seccion">Todos los productos</h1>
+                        <button id="nuevoProducto" class="boton-azul">Agregar producto</button>
                     </div>
 
                     <div class="contenido-seccion">
 
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/starwars/starwars1.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/starwars/starwars1.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">Mini cabeza W</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -68,7 +58,7 @@
                         </div>
 
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/starwars/starwars2.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/starwars/starwars2.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">Mini cabeza B2</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -77,7 +67,7 @@
                         </div>
 
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/starwars/starwars3.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/starwars/starwars3.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">Mini Yoda</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -86,7 +76,7 @@
                         </div>
 
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/starwars/starwars4.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/starwars/starwars4.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">Soldado star</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -95,7 +85,7 @@
                         </div>
 
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/starwars/starwars5.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/starwars/starwars5.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">Pequeño Yoda</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -104,7 +94,7 @@
                         </div>
 
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/starwars/starwars6.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/starwars/starwars6.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">Conjunto star</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -112,24 +102,8 @@
                             </div>
                         </div>
 
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="consolas">
-            <div class="container">
-
-                <div class="container-seccion">
-                    <div class="encabezado-seccion">
-                        <h1 class="titulo-seccion">Consolas</h1>
-                        <a href="#consolas">ver todo &rArr;</a>
-                    </div>
-
-                    <div class="contenido-seccion">
-
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/consolas/consolas1.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/consolas/consolas1.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">Control xyz</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -138,7 +112,7 @@
                         </div>
 
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/consolas/consolas2.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/consolas/consolas2.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">Consola y control</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -147,7 +121,7 @@
                         </div>
 
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/consolas/consolas3.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/consolas/consolas3.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">Nintendo V</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -156,7 +130,7 @@
                         </div>
 
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/consolas/consolas4.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/consolas/consolas4.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">Control switch</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -165,7 +139,7 @@
                         </div>
 
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/consolas/consolas5.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/consolas/consolas5.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">Xbox</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -174,7 +148,7 @@
                         </div>
 
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/consolas/consolas6.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/consolas/consolas6.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">Pokedex</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -182,24 +156,8 @@
                             </div>
                         </div>
 
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="diversos">
-            <div class="container">
-
-                <div class="container-seccion">
-                    <div class="encabezado-seccion">
-                        <h1 class="titulo-seccion">Diversos</h1>
-                        <a href="#diversos">ver todo &rArr;</a>
-                    </div>
-
-                    <div class="contenido-seccion">
-
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/diversos/diversos1.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/diversos/diversos1.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">Producto xyz</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -208,7 +166,7 @@
                         </div>
 
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/diversos/diversos2.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/diversos/diversos2.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">Camisetas</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -217,7 +175,7 @@
                         </div>
 
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/diversos/diversos3.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/diversos/diversos3.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">Sonic mini</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -226,7 +184,7 @@
                         </div>
 
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/diversos/diversos4.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/diversos/diversos4.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">Rádio vintage</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -235,7 +193,7 @@
                         </div>
 
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/diversos/diversos5.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/diversos/diversos5.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">Lentes VR</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -244,7 +202,7 @@
                         </div>
 
                         <div class="tarjeta-seccion">
-                            <img class="imagen-producto" src="./assets/img/diversos/diversos6.png" alt="">
+                            <img class="imagen-producto" src="../../assets/img/diversos/diversos6.png" alt="">
                             <div class="descripcion-producto">
                                 <label for="imagen-producto">pika-pika-chu</label>
                                 <label class="precio" for="imagen-producto">$60.00</label>
@@ -258,12 +216,12 @@
         </section>
 
         <section id="contacto" class="contacto">
-            <div class="container">
+            <div class="container contacto-c">
                 <div class="container-contacto">
 
                     <div class="contacto-logo">
                         <div class="logo">
-                            <img src="./assets/img/logo.svg" alt="">
+                            <img src="../../assets/img/logo.svg" alt="">
                             <span class="alura texto-logo">Alura</span>
                             <span class="geek texto-logo">Geek</span>
                         </div>
@@ -306,6 +264,7 @@
         <p class="rodapie">Creado por Martin Ortiz 2022 &copy;</p>
     </footer>
 </body>
-<script src="./assets/js/main.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/administrador.js"></script>
 
 </html>
